@@ -42,10 +42,9 @@ function merge($left, $right)
     }
     return $combined;
 } 
-//3 6 8 7 0 1 4 2 9 5
 $testArray = array(3,6,8,7,0,1,4,2,9,5);   
 
-$sorterArray = mergeSort($testArray);
+$sortedArray = mergeSort($testArray);
 print_r($testArray);
-print_r($sorterArray);
+print_r($sortedArray);
 
