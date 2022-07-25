@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inter:wght@400;600;700&family=Open+Sans:wght@300;500;700;800&display=swap');
+
+*{
+    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    color: #8c8483;
+    text-align: center;
+}
+.form{
+    display:grid;
+    grid-template-columns: auto;
+
+}
+#contact__info{
+    display: grid;
+    grid-template-columns: 50%;
+    justify-content: center;
+    margin: 10% auto;
+}
+.form__label{
+    padding: 8px 0;
+    font-weight: 400;
+    color: #262627;
+}
+.form__input{
+    padding: 8px;
+    border-color: rgb(211, 207, 207) none;
+}
+.form__input::placeholder{
+    color: rgb(211, 207, 207);
+}
+.form__input:focus{
+    outline: none;
+}
+button{
+    margin-top: 20px !important;
+    padding: 8px;
+    background-color: #262627;
+    color: #dbd5d4;
+}
